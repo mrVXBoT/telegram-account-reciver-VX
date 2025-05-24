@@ -81,5 +81,5 @@ The bot should connect to Telegram, and you can start interacting with it or acc
 ---
 
 ```markdown
-<p Made with ❤️</p>
+<p> Made with ❤️</p>
 ``` 
