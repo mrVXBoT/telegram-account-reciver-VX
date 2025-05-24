@@ -50,8 +50,7 @@ pip install telethon redis requests phonenumbers lxml namegenerator
 ## ⚙️ Setup and Installation
 
 1.  **Clone the repository:**
-    ```bash
-git clone https://github.com/mrVXBoT/telegram-account-reciver-VX.git
+    ```bashgit clone https://github.com/mrVXBoT/telegram-account-reciver-VX.git 
     cd telegram-account-reciver-VX
     ```
 2.  **Install dependencies:**
