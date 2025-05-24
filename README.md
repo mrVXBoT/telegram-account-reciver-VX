@@ -51,11 +51,11 @@ pip install telethon redis requests phonenumbers lxml namegenerator
 
 1.  **Clone the repository:**
     ```bashgit
-    clone https://github.com/mrVXBoT/telegram-account-reciver-VX.git 
+    git clone https://github.com/mrVXBoT/telegram-account-reciver-VX.git 
     ```
 2.  **Install dependencies:**
     ```bash
-pip install -r requirements.txt 
+    pip install -r requirements.txt 
     ```
 3.  **Set up Redis:** Ensure you have a Redis server running. The bot connects to `localhost:6379`.
 4.  **Get API ID and API Hash:** Obtain your Telegram API credentials from [my.telegram.org](https://my.telegram.org). Update the `apis` list in `VX-ACC.py` with your API ID and API Hash.
@@ -81,5 +81,5 @@ The bot should connect to Telegram, and you can start interacting with it or acc
 ---
 
 ```markdown
-<p align="center">Made with ❤️</p>
+<p Made with ❤️</p>
 ``` 
