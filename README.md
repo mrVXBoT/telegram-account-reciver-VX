@@ -51,17 +51,17 @@ pip install telethon redis requests phonenumbers lxml namegenerator
 
 1.  **Clone the repository:**
     ```bash
-git clone <your-repository-url>
-    cd TEL-REC
+git clone https://github.com/mrVXBoT/telegram-account-reciver-VX.git
+    cd telegram-account-reciver-VX
     ```
 2.  **Install dependencies:**
     ```bash
-pip install -r requirements.txt # If you have one, otherwise use the command above
+pip install -r requirements.txt 
     ```
 3.  **Set up Redis:** Ensure you have a Redis server running. The bot connects to `localhost:6379`.
-4.  **Get API ID and API Hash:** Obtain your Telegram API credentials from [my.telegram.org](https://my.telegram.org). Update the `apis` list in `AccTEL.py` with your API ID and API Hash.
-5.  **Get Bot Token:** Create a new bot or use an existing one via [@BotFather](https://t.me/BotFather) and get your bot token. Update the bot initialization in `AccTEL.py`.
-6.  **Configure Admin IDs:** Add your Telegram user ID to the `admins` list in `AccTEL.py`.
+4.  **Get API ID and API Hash:** Obtain your Telegram API credentials from [my.telegram.org](https://my.telegram.org). Update the `apis` list in `VX-ACC.py` with your API ID and API Hash.
+5.  **Get Bot Token:** Create a new bot or use an existing one via [@BotFather](https://t.me/BotFather) and get your bot token. Update the bot initialization in `VX-ACC.py`.
+6.  **Configure Admin IDs:** Add your Telegram user ID to the `admins` list in `VX-ACC.py`.
 7.  **Prepare Text Files:**
     *   Create `fnames.txt` with a list of first names (one per line).
     *   Create `lnames.txt` with a list of last names (one per line).
@@ -74,7 +74,7 @@ pip install -r requirements.txt # If you have one, otherwise use the command abo
 ## ▶️ Running the Bot
 
 ```bash
-python AccTEL.py
+python VX-ACC.py
 ```
 
 The bot should connect to Telegram, and you can start interacting with it or access the admin panel using `/admin` if you are listed as an admin.
